@@ -1,0 +1,34 @@
+.mynavbar a{
+    margin-left: 10%;
+    color: yellow;
+}
+.mynavbar a:hover{
+    border-bottom: 2px solid #eeff00;
+}
+/*
+.header {
+	height: 620px;
+    width: 100%;
+	background-image: url('../img/thought-bg.png');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+@media (max-width: 1400px) {
+	.page-header {
+    height: 650px;
+    width: 100%;
+
+	}
+	
+}
+
+@media (max-width: 1920px) {
+	.page-header {
+    height: 920px;
+    width: 100%;
+
+	}
+	
+}
+*/

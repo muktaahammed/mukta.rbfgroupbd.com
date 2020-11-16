@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+.mynav a {
+	color: #eeff00 !important;
+	margin-right: 5px;	
+}
+
+.mynav a:hover{
+	border-bottom: 2px solid #eeff00;
+
+}
+
+.header {
+	height: auto;
+	width: 100%;
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+.description {
+	left: 25%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: left;
+}
+.description h1 {
+	color: #ffffff;
+}
+.text-span {
+	color: #eeff00;
+}
+.description p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+.icons {
+	margin-top: 1rem;
+}
+.icons a {
+	color: #fff;
+	padding: 0.5rem;
+	transition: all 0.5s ease-out;
+}
+.icons a:hover {
+	color: #eeff00;
+}
+.sm-heading {
+	margin: 0;
+	font-weight: 400;
+	font-size: 5rem;
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+	background: rgba(0, 0, 0, 0.6);
+}
+.thoughts{
+	margin-top: 30px;
+	grid-area: bio;
+	font-size: 1.6rem;
+}
+.thoughts-text-secondary{
+	color: #eeff00;
+}
+.example_a {
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #ed3330;
+	padding: 10px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+	}
+.example_a:hover {
+		background: #eeff00;
+		color: rgb(2, 2, 2) !important;
+		text-decoration: none;
+		letter-spacing: 1px;
+		-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+		transition: all 0.4s ease 0s;
+}
+
+.gallery img{
+	transition: 1s;
+}
+.gallery img:hover{
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+
+@media (max-width: 575.98px) {
+  .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    transform: none;
+    text-align: center;
+  }
+  
+  .description h1 {
+    font-size: 2em;
+  }
+  
+  .description p {
+    font-size: 1.2rem;
+  }
+  
+  .features {
+    margin: 0;
+  }
+
+}
+	
+@media (max-width: 900px) {
+	.description {
+	  left: 0;
+	  padding: 0 15px;
+	  position: absolute;
+	  top: 10%;
+	  transform: none;
+	  text-align: center;
+	}
+	
+	.description h1 {
+	  font-size: 1.5rem;
+	}
+	
+	.description p {
+	  font-size: 1.0rem;
+	}
+	
+	.features {
+	  margin: 0;
+	}
+
+  }
